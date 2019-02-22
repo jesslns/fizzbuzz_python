@@ -11,3 +11,9 @@ def divisibleByFive(number):
         return "Buzz"
     else:
         return number
+
+def divisibleByThreeAndFive(number):
+    if number % 15 == 0:
+        return "FizzBuzz"
+    else:
+        return number
