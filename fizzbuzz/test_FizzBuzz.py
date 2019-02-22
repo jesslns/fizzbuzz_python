@@ -6,3 +6,9 @@ def test_divisibleByThree():
 
 def test_notDivisibleByThree():
     assert FizzBuzz.divisibleByThree(8) == 8
+
+def test_divideByFive():
+    assert FizzBuzz.divisibleByThree(20) == "Buzz"
+
+def test_notDivideByFive():
+    assert FizzBuzz.divisibleByThree(13) == 13
