@@ -25,3 +25,12 @@ def test_divisibleByThreeAndFive():
 def test_notDivisibleByThreeAndFive():
     assert FizzBuzz.divisibleByThreeAndFive(19) == 19
     assert FizzBuzz.divisibleByThreeAndFive(7) == 7
+
+def test_fizzbuzz():
+    assert FizzBuzz.fizzbuzz(1) == 1
+    assert FizzBuzz.fizzbuzz(3) == "Fizz"
+    assert FizzBuzz.fizzbuzz(5) == "Buzz"
+    assert FizzBuzz.fizzbuzz(15) == "FizzBuzz"
+    assert FizzBuzz.fizzbuzz(19) == 19
+    assert FizzBuzz.fizzbuzz(30) == "FizzBuzz"
+    assert FizzBuzz.fizzbuzz(25) == "Buzz"
